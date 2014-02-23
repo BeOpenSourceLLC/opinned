@@ -13,7 +13,7 @@ App.Router.map(function() {
 
 App.IndexRoute = Ember.Route.extend({
   model: function() {
-    return this.store.findAll('article');
+    return App.ARTICLES;
   }
 });
 
@@ -38,9 +38,8 @@ App.Article = DS.Model.extend({
 	pubDate: DS.attr('date'),
 	title: DS.attr('string')
 });
-App.ApplicationAdapter = DS.FIXTUREAdapter.extend();
 
-var articles = [{
+App.ARTICLES = [{
 description: "Two other children are still hospitalized with serious injuries",
 guid: [
 {
