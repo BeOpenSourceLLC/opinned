@@ -153,5 +153,8 @@ value: "http://apidata.usatoday.com/story/news/politics/2014/02/22/flexible-fede
 link: "http://apidata.usatoday.com/story/news/politics/2014/02/22/flexible-federalism-from-washington/5727111/?kjnd=1mRP0oGNQaW1t7294kzkBeGR9fFIBuS%2BSS9iF8x1EWxm%2BMHDTmVVpX%2FHiwajRkoy-8af81fd3-f45b-461d-afc4-4e65454314bf_soWVrXaaBxBHdCo%2B2pynMX6H%2BwFBJWi7PnjKdpXAPq14kmfDgHGwUqLQZDi6G7Bt",
 pubDate: "Sat, 22 Feb 2014 03:56:02 GMT",
 title: "Governors to Washington: We'll show you how it's done"
-}
-];
+}];
+
+Ember.Handlebars.registerBoundHelper('currentDate', function() {
+  return moment().format('LL');
+});
