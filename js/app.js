@@ -29,17 +29,9 @@ App.TopicsRoute = Ember.Route.extend({});
 App.MostRoute = Ember.Route.extend({});
 
 App.ArticlesRoute = Ember.Route.extend({
-	model: function() {
-    	return App.ARTICLES;
- 	}
-});
-
-App.Article = DS.Model.extend({
-	description: DS.attr('string'),
-	guid: DS.attr(),
-	link: DS.attr('string'),
-	pubDate: DS.attr('date'),
-	title: DS.attr('string')
+	model: function(){
+		return App.ARTICLES;
+	}
 });
 
 App.ARTICLES = [{
