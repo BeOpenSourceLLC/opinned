@@ -3,6 +3,7 @@ App = Ember.Application.create();
 App.Router.map(function() {
 	this.resource('articles');
 	this.route('sports');
+	this.resource('politics');
   	this.resource('topics');
   	this.route('entertainment');
   	this.route('tech');
