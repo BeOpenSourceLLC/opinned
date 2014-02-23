@@ -155,3 +155,8 @@ nav.navbar a{
 .well {
 	background: rgba(0,0,0,.8);
 }
+
+.well-title {
+	font-color: ghostwhite;
+	font-weight: bold;
+}
