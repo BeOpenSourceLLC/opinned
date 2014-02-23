@@ -35,7 +35,7 @@ Version : 1.12
         var $element = $(element);
         var element = element;
 
-        $('body').append('<a href="#" class="pocp_button"><i class="icon-plus"></i></a>');
+        $('body').append('<a href="#" class="pocp_button"><i class="glyphicon glyphicon-plus"></i></a>');
 
         var pocPanel = $element.children('.pocp'),
             pocPanelButton = $('.pocp_button'),
