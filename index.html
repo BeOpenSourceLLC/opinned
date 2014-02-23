@@ -17,7 +17,9 @@
 <body>
   <script type="text/x-handlebars">
     <nav class="text-center navbar navbar-inverse">
-        {{#link-to 'index' class="navbar-header btn"}}oPinned{{/link-to}}<br /><small>The place to give your opinon to the world</small>
+    <div class='navbar-header'>
+        {{#link-to 'index' class="navbar-brand btn"}}oPinned{{/link-to}}<br /><small>The place to give your opinon to the world</small>
+    </div>
         {{#link-to 'politics' class="btn"}}Politics{{/link-to}}
         {{#link-to 'sports' class="btn"}}Sports{{/link-to}}
         {{#link-to 'tech' class="btn"}}Tech{{/link-to}}
