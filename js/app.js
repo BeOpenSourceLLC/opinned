@@ -1,5 +1,12 @@
 App = Ember.Application.create();
 
+App.ResetScroll = Ember.Mixin.create({
+  enter: function() {
+    this._super();
+    window.scrollTo(0,0);
+  }
+});
+
 App.Router.map(function() {
 	this.resource('articles');
 	this.route('sports');
