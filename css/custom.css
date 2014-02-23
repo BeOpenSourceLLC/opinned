@@ -136,7 +136,7 @@ body {
 	}
 }
 
-#columns:hover .pin:not(:hover) {
+#columns:hover .panel:not(:hover) {
 	opacity: 0.5;
 }
 
