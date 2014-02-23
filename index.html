@@ -15,16 +15,6 @@
   <link rel="stylesheet" type="text/css" href="css/custom.css">
   <link rel="stylesheet" href="css/pulloutpanel.css" />
   <link href="css/scrollbars.css" rel="stylesheet" />
-  <script type="text/javascript">
-    $(document).ready(function($){
-        $('#pocp1').pullOutContentPanel({
-          pocp_scrollbars : true,
-          pocp_showonload: false,
-          pocp_pg_overlay: false,
-          pocp_clickout: true
-        });
-    });
-  </script>
 </head>
 <body>
   <script type="text/x-handlebars">
@@ -209,6 +199,16 @@
   <script src="js/custom.js"></script>
   <script src="js/libs/moment.min.js"></script>
   <script src='js/pulloutpanel.js'></script>
+    <script type="text/javascript">
+    $(document).ready(function($){
+        $('#pocp1').pullOutContentPanel({
+          pocp_scrollbars : true,
+          pocp_showonload: false,
+          pocp_pg_overlay: false,
+          pocp_clickout: true
+        });
+    });
+  </script>
 </body>
 </html>
 
