@@ -18,7 +18,17 @@
 </head>
 <body>
   <script type="text/x-handlebars">
-  <div id="pocp1" class="pocp_left"><!-- BEGIN PULL OUT CONTENT PANEL -->
+    <nav class="text-center navbar navbar-top navbar-inverse">
+    <div class='navbar-header'>
+        {{#link-to 'index' class="navbar-brand"}}oPinned - <small>Expression via social media</small>{{/link-to}}
+    </div>
+        {{#link-to 'politics' class="btn"}}Politics{{/link-to}}
+        {{#link-to 'sports' class="btn"}}Sports{{/link-to}}
+        {{#link-to 'tech' class="btn"}}Tech{{/link-to}}
+        {{#link-to 'entertainment' class="btn"}}Entertainment{{/link-to}}
+        {{#link-to 'tags' class="btn"}}Tags{{/link-to}}
+    </nav>
+    <div id="pocp1" class="pocp_left"><!-- BEGIN PULL OUT CONTENT PANEL -->
 
 
     <div class="pocp"><!-- BEGIN PANEL CONTAINER -->
@@ -53,19 +63,6 @@
 </div><!-- END PULL OUT CONTENT PANEL -->
 
 
-
-
-<!-- PAGE CONTENT - NOT PART OF THE MENU -->
-    <nav class="text-center navbar navbar-top navbar-inverse">
-    <div class='navbar-header'>
-        {{#link-to 'index' class="navbar-brand"}}oPinned - <small>Expression via social media</small>{{/link-to}}
-    </div>
-        {{#link-to 'politics' class="btn"}}Politics{{/link-to}}
-        {{#link-to 'sports' class="btn"}}Sports{{/link-to}}
-        {{#link-to 'tech' class="btn"}}Tech{{/link-to}}
-        {{#link-to 'entertainment' class="btn"}}Entertainment{{/link-to}}
-        {{#link-to 'tags' class="btn"}}Tags{{/link-to}}
-    </nav>
     <div class="container">
         {{outlet}}
     </div>
