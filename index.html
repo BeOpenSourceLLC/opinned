@@ -27,9 +27,6 @@
         {{#link-to 'tags' class="btn"}}Tags{{/link-to}}
     </nav>
     <div class="container">
-      <div class="well">
-        Top oPinned topics for today: {{currentDate}}
-      </div>
       <div id="wrapper">
         <div id="columns">
         {{outlet}}
@@ -39,6 +36,8 @@
   </script>
 
    <script type="text/x-handlebars" data-template-name="index">
+      <div class="well">
+        Top oPinned topics for today: {{currentDate}}
   {{#each}}
       <div class="pin panel panel-default">
         <div class="panel-heading">
@@ -59,6 +58,7 @@
       </div>
     </div>
     {{/each}}
+    </div>
   </script>
 
    <script type="text/x-handlebars" data-template-name="articles">
