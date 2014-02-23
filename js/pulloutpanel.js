@@ -122,7 +122,7 @@ Version : 1.12
             if (!$element.hasClass('pocp_show')) {
             	pocPanelToggleInit();
             }
-            return $(pocPanelButton).toggleClass('btn_active').find('i').toggleClass('icon-plus icon-minus');
+            return $(pocPanelButton).toggleClass('btn_active').find('i').toggleClass('glyphicon-plus glyphicon-minus');
 
         }
 
@@ -136,7 +136,7 @@ Version : 1.12
 				if ($(pocPanel).hasClass('pocp_active')) {
 					$element.toggleClass('pocp_show');
 					$(pocPanel).removeClass('pocp_active');
-					$(pocPanelButton).removeClass('btn_active').find('i').toggleClass('icon-plus icon-minus');
+					$(pocPanelButton).removeClass('btn_active').find('i').toggleClass('glyphicon-plus glyphicon-minus');
 		            if (!$element.hasClass('pocp_show')) {
 		            	pocPanelToggleInit();
 		            }
@@ -192,7 +192,7 @@ Version : 1.12
 
 			$(pocPanelToggleEl).click(function () {
 
-				$(this).toggleClass('toggle_active').find('i').toggleClass('icon-plus icon-minus');
+				$(this).toggleClass('toggle_active').find('i').toggleClass('glyphicon-plus glyphicon-minus');
 				var togglePanel = $(this).siblings('.pocp_panel');
 
 				if (togglePanel.is(':hidden')) {
@@ -208,7 +208,7 @@ Version : 1.12
 
         var pocPanelToggleInit = function(){
 
-			$(pocPanelToggleEl).removeClass('toggle_active').find('i').removeClass('icon-minus').addClass('icon-plus');
+			$(pocPanelToggleEl).removeClass('toggle_active').find('i').removeClass('glyphicon-minus').addClass('glyphicon-plus');
 			$('.pocp_panel').slideUp(0);
 
         }
