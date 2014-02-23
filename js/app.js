@@ -8,7 +8,7 @@ App.Router.map(function() {
   	this.route('entertainment');
   	this.route('tech');
 	this.route('most');
-	this.route('tagged');
+	this.route('tags');
 });
 
 
