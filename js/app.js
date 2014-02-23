@@ -125,7 +125,7 @@ pubDate: "Sat, 22 Feb 2014 03:08:31 GMT",
 title: "Ukraine parliament votes to remove president"
 },
 {
-description: "Protesters proposed presidential residence be transformed into a "Museum of Corruption."",
+description: "Protesters proposed presidential residence be transformed into a Museum of Corruption.",
 guid: [
 {
 isPermalink: "true",
