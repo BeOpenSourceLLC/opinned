@@ -53,7 +53,7 @@ pubDate: "Sat, 22 Feb 2014 01:49:53 GMT",
 title: "2 adults, 2 children die in Indianapolis fire"
 },
 {
-description: "JoaquÃ­n "El Chapo" GuzmÃ¡n is captured by Mexican and U.S. officials 13 years after escaping prison.",
+description: "Joaquan ­El Chapo GuzmÃ¡n is captured by Mexican and U.S. officials 13 years after escaping prison.",
 guid: [
 {
 isPermalink: "true",
