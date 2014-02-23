@@ -19,6 +19,8 @@ App.IndexRoute = Ember.Route.extend({
 
 App.TechRoute = Ember.Route.extend({});
 
+App.PoliticsRoute = Ember.Route.extend({});
+
 App.SportsRoute = Ember.Route.extend({});
 
 App.TopicsRoute = Ember.Route.extend({});
@@ -27,7 +29,7 @@ App.MostRoute = Ember.Route.extend({});
 
 App.ArticlesRoute = Ember.Route.extend({
 	model: function() {
-    	return this.store.findAll('article');
+    	return App.ARTICLES;
  	}
 });
 
