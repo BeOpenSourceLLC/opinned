@@ -151,3 +151,7 @@ nav.navbar a{
 .ember-application {
     margin: 20px;
 }
+
+.well {
+	background: rgba(0,0,0,.8);
+}
