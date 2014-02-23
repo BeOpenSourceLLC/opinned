@@ -160,5 +160,4 @@ link: "http://apidata.usatoday.com/story/news/politics/2014/02/22/flexible-feder
 pubDate: "Sat, 22 Feb 2014 03:56:02 GMT",
 title: "Governors to Washington: We'll show you how it's done"
 }
-]
-}];
+];
